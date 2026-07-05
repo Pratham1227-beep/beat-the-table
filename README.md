@@ -168,10 +168,5 @@ Tested against **actual** 2018 and 2022 World Cup results using data frozen *bef
 4. **Neutral venue assumption:** All matches are modelled as neutral-venue fixtures. Home-ground advantage is not separately accounted for in World Cup group stage games.
 5. **Thin H2H:** If two teams have fewer than 5 historical meetings, H2H features default to 33.3% per outcome.
 
----
-
-## 📄 License
 
 Built for hackathon purposes. All data sourced from publicly available datasets under their respective Kaggle licences.
-#   b e a t - t h e - t a b l e  
- 
