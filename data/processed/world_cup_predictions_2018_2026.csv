@@ -1,0 +1,214 @@
+Date,Tournament,Team A,Team B,Score,Actual Result,Team A Win Prob,Draw Prob,Team B Win Prob,Predicted Outcome,Correct?
+2018-06-14,2018 World Cup,Russia,Saudi Arabia,5-0,Win,54.3%,22.8%,22.9%,Win,Yes
+2018-06-15,2018 World Cup,Egypt,Uruguay,0-1,Loss,39.2%,24.7%,36.1%,Win,No
+2018-06-15,2018 World Cup,Morocco,Iran,0-1,Loss,50.4%,24.6%,25.0%,Win,No
+2018-06-15,2018 World Cup,Portugal,Spain,3-3,Draw,47.2%,20.3%,32.5%,Win,No
+2018-06-16,2018 World Cup,France,Australia,2-1,Win,65.3%,22.7%,12.0%,Win,Yes
+2018-06-16,2018 World Cup,Argentina,Iceland,1-1,Draw,72.3%,18.6%,9.2%,Win,No
+2018-06-16,2018 World Cup,Peru,Denmark,0-1,Loss,50.1%,24.1%,25.8%,Win,No
+2018-06-16,2018 World Cup,Croatia,Nigeria,2-0,Win,59.5%,23.3%,17.2%,Win,Yes
+2018-06-17,2018 World Cup,Costa Rica,Serbia,0-1,Loss,39.9%,22.8%,37.3%,Win,No
+2018-06-17,2018 World Cup,Germany,Mexico,0-1,Loss,58.0%,27.9%,14.1%,Win,No
+2018-06-17,2018 World Cup,Brazil,Switzerland,1-1,Draw,59.7%,26.3%,13.9%,Win,No
+2018-06-18,2018 World Cup,Sweden,Korea Republic,1-0,Win,50.9%,23.3%,25.7%,Win,Yes
+2018-06-18,2018 World Cup,Belgium,Panama,3-0,Win,80.2%,14.7%,5.1%,Win,Yes
+2018-06-18,2018 World Cup,Tunisia,England,1-2,Loss,28.5%,27.4%,44.1%,Loss,Yes
+2018-06-19,2018 World Cup,Russia,Egypt,3-1,Win,45.5%,26.8%,27.8%,Win,Yes
+2018-06-19,2018 World Cup,Colombia,Japan,1-2,Loss,58.4%,22.8%,18.8%,Win,No
+2018-06-19,2018 World Cup,Poland,Senegal,1-2,Loss,51.7%,23.0%,25.2%,Win,No
+2018-06-20,2018 World Cup,Portugal,Morocco,1-0,Win,61.0%,22.9%,16.1%,Win,Yes
+2018-06-20,2018 World Cup,Uruguay,Saudi Arabia,1-0,Win,64.0%,23.4%,12.6%,Win,Yes
+2018-06-20,2018 World Cup,Iran,Spain,0-1,Loss,35.9%,23.6%,40.5%,Loss,Yes
+2018-06-21,2018 World Cup,Denmark,Australia,1-1,Draw,57.7%,23.9%,18.5%,Win,No
+2018-06-21,2018 World Cup,France,Peru,1-0,Win,60.5%,24.5%,14.9%,Win,Yes
+2018-06-21,2018 World Cup,Argentina,Croatia,0-3,Loss,55.5%,21.4%,23.2%,Win,No
+2018-06-22,2018 World Cup,Brazil,Costa Rica,2-0,Win,77.4%,16.1%,6.5%,Win,Yes
+2018-06-22,2018 World Cup,Nigeria,Iceland,2-0,Win,50.9%,22.7%,26.4%,Win,Yes
+2018-06-22,2018 World Cup,Serbia,Switzerland,1-2,Loss,44.2%,23.2%,32.6%,Win,No
+2018-06-23,2018 World Cup,Germany,Sweden,2-1,Win,58.8%,27.2%,14.0%,Win,Yes
+2018-06-23,2018 World Cup,Belgium,Tunisia,5-2,Win,69.3%,20.7%,10.0%,Win,Yes
+2018-06-23,2018 World Cup,Korea Republic,Mexico,1-2,Loss,38.7%,28.2%,33.1%,Win,No
+2018-06-24,2018 World Cup,Japan,Senegal,2-2,Draw,40.9%,25.9%,33.3%,Win,No
+2018-06-24,2018 World Cup,Poland,Colombia,0-3,Loss,44.9%,24.0%,31.0%,Win,No
+2018-06-24,2018 World Cup,England,Panama,6-1,Win,69.0%,20.6%,10.3%,Win,Yes
+2018-06-25,2018 World Cup,Russia,Uruguay,0-3,Loss,55.4%,24.2%,20.4%,Win,No
+2018-06-25,2018 World Cup,Saudi Arabia,Egypt,2-1,Win,30.3%,30.7%,38.9%,Loss,No
+2018-06-25,2018 World Cup,Spain,Morocco,2-2,Draw,63.4%,21.5%,15.1%,Win,No
+2018-06-25,2018 World Cup,Iran,Portugal,1-1,Draw,38.3%,26.1%,35.6%,Win,No
+2018-06-26,2018 World Cup,Australia,Peru,0-2,Loss,42.1%,25.3%,32.6%,Win,No
+2018-06-26,2018 World Cup,Denmark,France,0-0,Draw,34.7%,27.2%,38.1%,Loss,No
+2018-06-26,2018 World Cup,Nigeria,Argentina,1-2,Loss,26.5%,27.7%,45.7%,Loss,Yes
+2018-06-26,2018 World Cup,Iceland,Croatia,1-2,Loss,27.6%,30.4%,42.1%,Loss,Yes
+2018-06-27,2018 World Cup,Korea Republic,Germany,2-0,Win,31.1%,24.9%,44.0%,Loss,No
+2018-06-27,2018 World Cup,Mexico,Sweden,0-3,Loss,42.4%,30.4%,27.2%,Win,No
+2018-06-27,2018 World Cup,Serbia,Brazil,0-2,Loss,25.5%,25.8%,48.8%,Loss,Yes
+2018-06-27,2018 World Cup,Switzerland,Costa Rica,2-2,Draw,59.6%,21.1%,19.2%,Win,No
+2018-06-28,2018 World Cup,England,Belgium,0-1,Loss,52.7%,23.3%,24.0%,Win,No
+2018-06-28,2018 World Cup,Panama,Tunisia,1-2,Loss,38.6%,26.0%,35.4%,Win,No
+2018-06-28,2018 World Cup,Japan,Poland,0-1,Loss,38.2%,24.4%,37.5%,Win,No
+2018-06-28,2018 World Cup,Senegal,Colombia,0-1,Loss,45.2%,24.5%,30.3%,Win,No
+2018-06-30,2018 World Cup,France,Argentina,4-3,Win,39.1%,30.3%,30.6%,Win,Yes
+2018-06-30,2018 World Cup,Uruguay,Portugal,2-1,Win,38.6%,26.0%,35.4%,Win,Yes
+2018-07-01,2018 World Cup,Russia,Spain,1-1,Draw,22.2%,17.0%,60.8%,Loss,No
+2018-07-01,2018 World Cup,Croatia,Denmark,1-1,Draw,51.7%,26.3%,22.0%,Win,No
+2018-07-02,2018 World Cup,Brazil,Mexico,2-0,Win,66.5%,21.9%,11.7%,Win,Yes
+2018-07-02,2018 World Cup,Belgium,Japan,3-2,Win,59.0%,24.9%,16.1%,Win,Yes
+2018-07-03,2018 World Cup,Sweden,Switzerland,1-0,Win,39.6%,26.2%,34.3%,Win,Yes
+2018-07-03,2018 World Cup,Colombia,England,1-1,Draw,28.9%,32.2%,39.0%,Loss,No
+2018-07-06,2018 World Cup,Uruguay,France,0-2,Loss,42.1%,30.9%,27.0%,Win,No
+2018-07-06,2018 World Cup,Brazil,Belgium,1-2,Loss,58.8%,21.1%,20.0%,Win,No
+2018-07-07,2018 World Cup,Sweden,England,0-2,Loss,30.8%,30.9%,38.3%,Loss,Yes
+2018-07-07,2018 World Cup,Russia,Croatia,2-2,Draw,37.9%,25.8%,36.3%,Win,No
+2018-07-10,2018 World Cup,France,Belgium,1-0,Win,46.1%,23.1%,30.8%,Win,Yes
+2018-07-11,2018 World Cup,Croatia,England,2-1,Win,38.9%,28.2%,32.9%,Win,Yes
+2018-07-14,2018 World Cup,Belgium,England,2-0,Win,32.6%,29.1%,38.3%,Loss,No
+2018-07-15,2018 World Cup,France,Croatia,4-2,Win,61.2%,24.1%,14.7%,Win,Yes
+2022-11-20,2022 World Cup,Qatar,Ecuador,0-2,Loss,39.0%,26.1%,34.9%,Win,No
+2022-11-21,2022 World Cup,Senegal,Netherlands,0-2,Loss,35.3%,23.5%,41.3%,Loss,Yes
+2022-11-21,2022 World Cup,England,Iran,6-2,Win,64.0%,20.3%,15.7%,Win,Yes
+2022-11-21,2022 World Cup,USA,Wales,1-1,Draw,51.4%,23.4%,25.2%,Win,No
+2022-11-22,2022 World Cup,Argentina,Saudi Arabia,1-2,Loss,80.6%,13.2%,6.2%,Win,No
+2022-11-22,2022 World Cup,Mexico,Poland,0-0,Draw,36.4%,31.2%,32.3%,Win,No
+2022-11-22,2022 World Cup,Denmark,Tunisia,0-0,Draw,60.9%,24.3%,14.8%,Win,No
+2022-11-22,2022 World Cup,France,Australia,4-1,Win,68.0%,23.8%,8.1%,Win,Yes
+2022-11-23,2022 World Cup,Germany,Japan,1-2,Loss,61.6%,22.9%,15.4%,Win,No
+2022-11-23,2022 World Cup,Spain,Costa Rica,7-0,Win,64.4%,22.9%,12.8%,Win,Yes
+2022-11-23,2022 World Cup,Morocco,Croatia,0-0,Draw,42.3%,25.5%,32.2%,Win,No
+2022-11-23,2022 World Cup,Belgium,Canada,1-0,Win,63.0%,24.1%,12.9%,Win,Yes
+2022-11-24,2022 World Cup,Portugal,Ghana,3-2,Win,69.8%,19.2%,11.0%,Win,Yes
+2022-11-24,2022 World Cup,Uruguay,Korea Republic,0-0,Draw,58.9%,22.4%,18.7%,Win,No
+2022-11-24,2022 World Cup,Switzerland,Cameroon,1-0,Win,56.4%,23.9%,19.6%,Win,Yes
+2022-11-24,2022 World Cup,Brazil,Serbia,2-0,Win,73.0%,16.9%,10.1%,Win,Yes
+2022-11-25,2022 World Cup,Qatar,Senegal,1-3,Loss,43.5%,26.3%,30.2%,Win,No
+2022-11-25,2022 World Cup,Netherlands,Ecuador,1-1,Draw,64.5%,22.7%,12.9%,Win,No
+2022-11-25,2022 World Cup,Wales,Iran,0-2,Loss,46.6%,23.4%,30.0%,Win,No
+2022-11-25,2022 World Cup,England,USA,0-0,Draw,66.1%,24.3%,9.6%,Win,No
+2022-11-26,2022 World Cup,Poland,Saudi Arabia,2-0,Win,62.7%,22.3%,15.0%,Win,Yes
+2022-11-26,2022 World Cup,Argentina,Mexico,2-0,Win,68.6%,20.2%,11.1%,Win,Yes
+2022-11-26,2022 World Cup,Tunisia,Australia,0-1,Loss,46.9%,23.2%,29.8%,Win,No
+2022-11-26,2022 World Cup,France,Denmark,2-1,Win,51.7%,27.8%,20.5%,Win,Yes
+2022-11-27,2022 World Cup,Croatia,Canada,4-1,Win,59.3%,23.0%,17.6%,Win,Yes
+2022-11-27,2022 World Cup,Japan,Costa Rica,0-1,Loss,51.3%,23.5%,25.2%,Win,No
+2022-11-27,2022 World Cup,Spain,Germany,1-1,Draw,45.2%,28.8%,26.0%,Win,No
+2022-11-27,2022 World Cup,Belgium,Morocco,0-2,Loss,61.5%,23.6%,14.9%,Win,No
+2022-11-28,2022 World Cup,Korea Republic,Ghana,2-3,Loss,56.0%,25.0%,19.0%,Win,No
+2022-11-28,2022 World Cup,Portugal,Uruguay,2-0,Win,56.5%,24.8%,18.7%,Win,Yes
+2022-11-28,2022 World Cup,Cameroon,Serbia,3-3,Draw,35.6%,24.1%,40.3%,Loss,No
+2022-11-28,2022 World Cup,Brazil,Switzerland,1-0,Win,65.4%,21.7%,12.9%,Win,Yes
+2022-11-29,2022 World Cup,Ecuador,Senegal,1-2,Loss,45.2%,26.1%,28.7%,Win,No
+2022-11-29,2022 World Cup,Qatar,Netherlands,0-2,Loss,25.3%,25.8%,49.0%,Loss,Yes
+2022-11-29,2022 World Cup,Wales,England,0-3,Loss,27.3%,27.2%,45.5%,Loss,Yes
+2022-11-29,2022 World Cup,Iran,USA,0-1,Loss,50.5%,23.5%,26.0%,Win,No
+2022-11-30,2022 World Cup,Poland,Argentina,0-2,Loss,37.0%,24.6%,38.4%,Loss,Yes
+2022-11-30,2022 World Cup,Saudi Arabia,Mexico,1-2,Loss,26.4%,26.0%,47.7%,Loss,Yes
+2022-11-30,2022 World Cup,Australia,Denmark,1-0,Win,36.0%,27.0%,37.1%,Loss,No
+2022-11-30,2022 World Cup,Tunisia,France,1-0,Win,26.1%,26.3%,47.6%,Loss,No
+2022-12-01,2022 World Cup,Japan,Spain,2-1,Win,36.7%,26.2%,37.1%,Loss,No
+2022-12-01,2022 World Cup,Costa Rica,Germany,2-4,Loss,33.4%,27.5%,39.1%,Loss,Yes
+2022-12-01,2022 World Cup,Croatia,Belgium,0-0,Draw,35.8%,30.0%,34.2%,Win,No
+2022-12-01,2022 World Cup,Canada,Morocco,1-2,Loss,40.4%,25.1%,34.5%,Win,No
+2022-12-02,2022 World Cup,Korea Republic,Portugal,2-1,Win,38.6%,26.0%,35.4%,Win,Yes
+2022-12-02,2022 World Cup,Ghana,Uruguay,0-2,Loss,34.5%,24.8%,40.7%,Loss,Yes
+2022-12-02,2022 World Cup,Serbia,Switzerland,2-3,Loss,49.0%,24.7%,26.3%,Win,No
+2022-12-02,2022 World Cup,Cameroon,Brazil,1-0,Win,14.3%,20.1%,65.6%,Loss,No
+2022-12-03,2022 World Cup,Netherlands,USA,3-1,Win,67.2%,21.6%,11.2%,Win,Yes
+2022-12-03,2022 World Cup,Argentina,Australia,2-1,Win,76.4%,17.0%,6.5%,Win,Yes
+2022-12-04,2022 World Cup,France,Poland,3-1,Win,59.0%,24.0%,16.9%,Win,Yes
+2022-12-04,2022 World Cup,England,Senegal,3-0,Win,58.5%,23.2%,18.2%,Win,Yes
+2022-12-05,2022 World Cup,Japan,Croatia,1-1,Draw,39.0%,25.9%,35.1%,Win,No
+2022-12-05,2022 World Cup,Brazil,Korea Republic,4-1,Win,74.9%,17.0%,8.2%,Win,Yes
+2022-12-06,2022 World Cup,Portugal,Switzerland,6-1,Win,50.5%,26.9%,22.6%,Win,Yes
+2022-12-06,2022 World Cup,Morocco,Spain,0-0,Draw,32.2%,26.8%,41.1%,Loss,No
+2022-12-09,2022 World Cup,Croatia,Brazil,1-1,Draw,31.7%,24.9%,43.4%,Loss,No
+2022-12-09,2022 World Cup,Netherlands,Argentina,2-2,Draw,50.3%,27.7%,21.9%,Win,No
+2022-12-10,2022 World Cup,Morocco,Portugal,1-0,Win,36.2%,26.8%,37.0%,Loss,No
+2022-12-10,2022 World Cup,England,France,1-2,Loss,47.0%,25.6%,27.4%,Win,No
+2022-12-13,2022 World Cup,Argentina,Croatia,3-0,Win,56.4%,24.2%,19.4%,Win,Yes
+2022-12-14,2022 World Cup,France,Morocco,2-0,Win,62.5%,25.8%,11.7%,Win,Yes
+2022-12-17,2022 World Cup,Croatia,Morocco,2-1,Win,56.1%,22.0%,21.9%,Win,Yes
+2022-12-18,2022 World Cup,Argentina,France,3-3,Draw,49.6%,26.1%,24.2%,Win,No
+2026-06-11,2026 World Cup,Mexico,South Africa,2-0,Win,68.9%,19.9%,11.2%,Win,Yes
+2026-06-11,2026 World Cup,Korea Republic,Czechia,2-1,Win,50.9%,23.0%,26.1%,Win,Yes
+2026-06-12,2026 World Cup,Canada,Bosnia and Herzegovina,1-1,Draw,56.8%,23.6%,19.6%,Win,No
+2026-06-12,2026 World Cup,USA,Paraguay,4-1,Win,54.6%,26.1%,19.2%,Win,Yes
+2026-06-13,2026 World Cup,Qatar,Switzerland,1-1,Draw,21.6%,26.5%,52.0%,Loss,No
+2026-06-13,2026 World Cup,Brazil,Morocco,1-1,Draw,57.6%,25.1%,17.3%,Win,No
+2026-06-13,2026 World Cup,Haiti,Scotland,0-1,Loss,32.4%,27.0%,40.6%,Loss,Yes
+2026-06-13,2026 World Cup,Australia,Turkey,2-0,Win,38.4%,23.2%,38.3%,Win,Yes
+2026-06-14,2026 World Cup,Sweden,Tunisia,5-1,Win,56.6%,24.8%,18.6%,Win,Yes
+2026-06-14,2026 World Cup,Netherlands,Japan,2-2,Draw,58.0%,24.1%,17.9%,Win,No
+2026-06-14,2026 World Cup,Germany,Curaçao,7-1,Win,82.2%,12.3%,5.5%,Win,Yes
+2026-06-14,2026 World Cup,Côte d'Ivoire,Ecuador,1-0,Win,46.0%,25.5%,28.6%,Win,Yes
+2026-06-15,2026 World Cup,Belgium,Egypt,1-1,Draw,65.6%,21.6%,12.8%,Win,No
+2026-06-15,2026 World Cup,Iran,New Zealand,2-2,Draw,63.1%,23.4%,13.6%,Win,No
+2026-06-15,2026 World Cup,Spain,Cabo Verde,0-0,Draw,81.0%,12.6%,6.3%,Win,No
+2026-06-15,2026 World Cup,Saudi Arabia,Uruguay,1-1,Draw,29.3%,27.8%,42.9%,Loss,No
+2026-06-16,2026 World Cup,Austria,Jordan,3-1,Win,64.4%,26.3%,9.3%,Win,Yes
+2026-06-16,2026 World Cup,France,Senegal,3-1,Win,58.9%,22.3%,18.8%,Win,Yes
+2026-06-16,2026 World Cup,Iraq,Norway,1-4,Loss,23.4%,27.8%,48.9%,Loss,Yes
+2026-06-16,2026 World Cup,Argentina,Algeria,3-0,Win,64.2%,23.0%,12.8%,Win,Yes
+2026-06-17,2026 World Cup,Ghana,Panama,1-0,Win,46.2%,23.7%,30.0%,Win,Yes
+2026-06-17,2026 World Cup,England,Croatia,4-2,Win,53.2%,24.1%,22.7%,Win,Yes
+2026-06-17,2026 World Cup,Portugal,DR Congo,1-1,Draw,74.9%,17.4%,7.7%,Win,No
+2026-06-17,2026 World Cup,Uzbekistan,Colombia,1-3,Loss,28.4%,24.4%,47.2%,Loss,Yes
+2026-06-18,2026 World Cup,Czechia,South Africa,1-1,Draw,61.5%,23.6%,14.9%,Win,No
+2026-06-18,2026 World Cup,Mexico,Korea Republic,1-0,Win,53.4%,25.4%,21.2%,Win,Yes
+2026-06-18,2026 World Cup,Switzerland,Bosnia and Herzegovina,4-1,Win,62.7%,22.4%,14.9%,Win,Yes
+2026-06-18,2026 World Cup,Canada,Qatar,6-0,Win,68.5%,20.1%,11.4%,Win,Yes
+2026-06-19,2026 World Cup,Turkey,Paraguay,0-1,Loss,57.1%,22.2%,20.7%,Win,No
+2026-06-19,2026 World Cup,Scotland,Morocco,0-1,Loss,43.8%,24.9%,31.4%,Win,No
+2026-06-19,2026 World Cup,Brazil,Haiti,3-0,Win,80.5%,13.2%,6.3%,Win,Yes
+2026-06-19,2026 World Cup,USA,Australia,2-0,Win,55.6%,24.4%,20.1%,Win,Yes
+2026-06-20,2026 World Cup,Tunisia,Japan,0-4,Loss,27.7%,22.6%,49.7%,Loss,Yes
+2026-06-20,2026 World Cup,Netherlands,Sweden,5-1,Win,60.9%,24.4%,14.7%,Win,Yes
+2026-06-20,2026 World Cup,Ecuador,Curaçao,0-0,Draw,73.7%,15.5%,10.9%,Win,No
+2026-06-20,2026 World Cup,Germany,Côte d'Ivoire,2-1,Win,61.8%,23.4%,14.8%,Win,Yes
+2026-06-21,2026 World Cup,Uruguay,Cabo Verde,2-2,Draw,70.4%,19.5%,10.0%,Win,No
+2026-06-21,2026 World Cup,Belgium,Iran,0-0,Draw,60.0%,22.2%,17.8%,Win,No
+2026-06-21,2026 World Cup,New Zealand,Egypt,1-3,Loss,36.2%,26.8%,36.9%,Loss,Yes
+2026-06-21,2026 World Cup,Spain,Saudi Arabia,4-0,Win,78.7%,14.3%,7.0%,Win,Yes
+2026-06-22,2026 World Cup,Argentina,Austria,2-0,Win,60.9%,23.2%,15.9%,Win,Yes
+2026-06-22,2026 World Cup,Jordan,Algeria,1-2,Loss,31.7%,28.5%,39.8%,Loss,Yes
+2026-06-22,2026 World Cup,France,Iraq,3-0,Win,78.4%,15.1%,6.5%,Win,Yes
+2026-06-22,2026 World Cup,Norway,Senegal,3-2,Win,46.9%,24.1%,29.0%,Win,Yes
+2026-06-23,2026 World Cup,Panama,Croatia,0-1,Loss,31.9%,28.5%,39.6%,Loss,Yes
+2026-06-23,2026 World Cup,England,Ghana,0-0,Draw,74.7%,14.9%,10.5%,Win,No
+2026-06-23,2026 World Cup,Colombia,DR Congo,1-0,Win,70.3%,18.4%,11.3%,Win,Yes
+2026-06-23,2026 World Cup,Portugal,Uzbekistan,5-0,Win,70.9%,20.6%,8.6%,Win,Yes
+2026-06-24,2026 World Cup,Mexico,Czechia,3-0,Win,53.2%,23.0%,23.9%,Win,Yes
+2026-06-24,2026 World Cup,South Africa,Korea Republic,1-0,Win,29.3%,26.4%,44.2%,Loss,No
+2026-06-24,2026 World Cup,Canada,Switzerland,1-2,Loss,39.4%,23.9%,36.7%,Win,No
+2026-06-24,2026 World Cup,Bosnia and Herzegovina,Qatar,3-1,Win,58.9%,23.4%,17.6%,Win,Yes
+2026-06-24,2026 World Cup,Scotland,Brazil,0-3,Loss,25.8%,27.6%,46.6%,Loss,Yes
+2026-06-24,2026 World Cup,Morocco,Haiti,4-2,Win,77.8%,15.2%,6.9%,Win,Yes
+2026-06-25,2026 World Cup,Tunisia,Netherlands,1-3,Loss,27.0%,25.8%,47.2%,Loss,Yes
+2026-06-25,2026 World Cup,Japan,Sweden,1-1,Draw,56.2%,23.8%,20.0%,Win,No
+2026-06-25,2026 World Cup,Ecuador,Germany,2-1,Win,37.8%,22.6%,39.6%,Loss,No
+2026-06-25,2026 World Cup,Paraguay,Australia,0-0,Draw,41.9%,27.9%,30.3%,Win,No
+2026-06-25,2026 World Cup,USA,Turkey,2-3,Loss,43.9%,26.2%,30.0%,Win,No
+2026-06-25,2026 World Cup,Curaçao,Côte d'Ivoire,0-2,Loss,26.1%,28.3%,45.5%,Loss,Yes
+2026-06-26,2026 World Cup,Egypt,Iran,1-1,Draw,48.5%,22.6%,28.9%,Win,No
+2026-06-26,2026 World Cup,New Zealand,Belgium,1-5,Loss,17.1%,19.0%,63.9%,Loss,Yes
+2026-06-26,2026 World Cup,Cabo Verde,Saudi Arabia,0-0,Draw,46.4%,23.6%,30.0%,Win,No
+2026-06-26,2026 World Cup,Uruguay,Spain,0-1,Loss,29.8%,25.8%,44.4%,Loss,Yes
+2026-06-26,2026 World Cup,Norway,France,1-4,Loss,34.5%,30.6%,34.9%,Loss,Yes
+2026-06-26,2026 World Cup,Senegal,Iraq,5-0,Win,64.7%,21.3%,13.9%,Win,Yes
+2026-06-27,2026 World Cup,Panama,England,0-2,Loss,28.3%,27.3%,44.4%,Loss,Yes
+2026-06-27,2026 World Cup,Croatia,Ghana,2-1,Win,72.6%,16.9%,10.4%,Win,Yes
+2026-06-27,2026 World Cup,DR Congo,Uzbekistan,3-1,Win,48.6%,23.3%,28.1%,Win,Yes
+2026-06-27,2026 World Cup,Colombia,Portugal,0-0,Draw,40.1%,25.8%,34.2%,Win,No
+2026-06-27,2026 World Cup,Jordan,Argentina,1-3,Loss,15.3%,18.9%,65.8%,Loss,Yes
+2026-06-27,2026 World Cup,Algeria,Austria,3-3,Draw,48.3%,22.6%,29.1%,Win,No
+2026-06-28,2026 World Cup,South Africa,Canada,0-1,Loss,31.9%,28.0%,40.1%,Loss,Yes
+2026-06-29,2026 World Cup,Brazil,Japan,2-1,Win,63.1%,24.1%,12.9%,Win,Yes
+2026-06-29,2026 World Cup,Germany,Paraguay,1-1,Draw,67.1%,22.1%,10.9%,Win,No
+2026-06-29,2026 World Cup,Netherlands,Morocco,1-1,Draw,55.5%,24.4%,20.2%,Win,No
+2026-06-30,2026 World Cup,Côte d'Ivoire,Norway,1-2,Loss,44.5%,22.0%,33.4%,Win,No
+2026-06-30,2026 World Cup,France,Sweden,3-0,Win,72.2%,18.9%,8.8%,Win,Yes
+2026-06-30,2026 World Cup,Mexico,Ecuador,2-0,Win,54.7%,27.2%,18.1%,Win,Yes
+2026-07-01,2026 World Cup,USA,Bosnia and Herzegovina,2-0,Win,56.2%,24.1%,19.8%,Win,Yes
+2026-07-01,2026 World Cup,Belgium,Senegal,3-2,Win,55.5%,20.8%,23.7%,Win,Yes
+2026-07-01,2026 World Cup,England,DR Congo,2-1,Win,72.3%,18.1%,9.6%,Win,Yes
+2026-07-02,2026 World Cup,Spain,Austria,3-0,Win,59.7%,24.4%,15.9%,Win,Yes
+2026-07-02,2026 World Cup,Portugal,Croatia,2-1,Win,56.9%,25.0%,18.0%,Win,Yes
+2026-07-02,2026 World Cup,Switzerland,Algeria,2-0,Win,51.1%,23.6%,25.3%,Win,Yes

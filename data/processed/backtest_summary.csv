@@ -1,0 +1,3 @@
+Tournament,Total Matches,Model Accuracy,Baseline Accuracy
+2018 World Cup,64,0.4375,0.5
+2022 World Cup,64,0.46875,0.578125
