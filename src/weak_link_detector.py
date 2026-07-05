@@ -8,7 +8,7 @@ at risk from Team B's best attackers / midfielders.
 Logic:
   • For each defensive role in Team A's XI, we find the strongest opponent
     player whose position directly threatens that role (e.g. RW vs LB).
-  • The vulnerability score = (opponent's attacking stat − my defensive stat).
+  • The vulnerability score = (opponent's attacking stat - my defensive stat).
   • The top-N highest scores are returned as "Weak Links".
 """
 
