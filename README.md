@@ -173,3 +173,5 @@ Tested against **actual** 2018 and 2022 World Cup results using data frozen *bef
 ## 📄 License
 
 Built for hackathon purposes. All data sourced from publicly available datasets under their respective Kaggle licences.
+#   b e a t - t h e - t a b l e  
+ 
