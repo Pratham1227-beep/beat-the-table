@@ -1,0 +1,11 @@
+# Ignore large data files that exceed GitHub limits
+# Raw data files (CSV, TSV) that are huge
+/data/raw/*
+# Processed player data (large CSV)
+/data/processed/players_fifa23.csv
+# Any other large assets you don't need in the repo
+*.csv
+*.tsv
+# Optional: ignore temporary files
+*.log
+*.tmp
