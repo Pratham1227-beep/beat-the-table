@@ -14,6 +14,7 @@ Logic:
 
 import os
 import pandas as pd
+import streamlit as st
 
 BASE_DIR   = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PLAYERS_CSV = os.path.join(BASE_DIR, 'data', 'processed', 'players_fifa23.csv')
@@ -150,6 +151,7 @@ MATCHUP_CFG = {
 
 # ── Helper: load squad stats ───────────────────────────────────────────────────
 
+@st.cache_data(show_spinner=False)
 def _load_squad(team_name: str) -> pd.DataFrame:
     """Return all FIFA 23 players for a national team as a DataFrame."""
     if not os.path.exists(PLAYERS_CSV):

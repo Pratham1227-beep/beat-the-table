@@ -14,7 +14,7 @@ from explain import explain_prediction
 from lineup_engine import get_starting_xi
 from tournament_sim import run_tournament_simulation
 from weak_link_detector import find_weak_links
-from report_generator import generate_match_report
+
 
 # Set up page config
 st.set_page_config(
@@ -524,6 +524,7 @@ if st.sidebar.button(
 if team_a == team_b:
     st.sidebar.warning("Please select two different teams.")
 
+@st.cache_data(show_spinner=False)
 def estimate_team_profile(team_name):
     """Estimate a team's playstyle based on their historical stats."""
     try:
@@ -1023,31 +1024,16 @@ else:
         if alt_players:
             st.pyplot(draw_pitch_portrait(alt_players, dot_color='#60a5fa'))
 
-    # ── PDF EXPORT ───────────────────────────────────────────────────────────
-    st.markdown("---")
-    st.markdown('<div class="card-label" style="text-align:center;">📄 Export Analysis</div>', unsafe_allow_html=True)
-    with st.spinner("Generating PDF Report..."):
-        try:
-            pdf_bytes = generate_match_report(
-                team_a=team_a, team_b=team_b, formation_a=formation_a, formation_b=formation_b,
-                probs=probs, explanation=explanation, starting_xi_a=starting_xi_a, starting_xi_b=starting_xi_b,
-                mapped_a=mapped_a, mapped_b_mirror=mapped_b_mirror, weak_links=weak_links,
-                sim_res=sim_res, opp_style=opponent_profile
-            )
-            col_dl1, col_dl2, col_dl3 = st.columns([1, 1, 1])
-            with col_dl2:
-                st.download_button(
-                    label="⬇️ Download Full PDF Match Report",
-                    data=pdf_bytes,
-                    file_name=f"Beat_The_Table_{team_a}_vs_{team_b}.pdf",
-                    mime="application/pdf",
-                    use_container_width=True
-                )
-        except Exception as e:
-            st.error(f"Error generating PDF: {e}")
 
 # Footer predictions database
 st.markdown("---")
+
+@st.cache_data(show_spinner=False)
+def _load_cached_csv(path):
+    if os.path.exists(path):
+        return pd.read_csv(path)
+    return pd.DataFrame()
+
 col_e1, col_e2 = st.columns(2)
 
 with col_e1:
@@ -1064,7 +1050,7 @@ with col_e1:
                     st.error(f"Error compiling predictions: {e}")
                     
         if os.path.exists(pred_path):
-            df_preds = pd.read_csv(pred_path)
+            df_preds = _load_cached_csv(pred_path)
             
             # Interactive Filters
             tourn_opt = ["All World Cups"] + sorted(df_preds['Tournament'].unique().tolist())
@@ -1105,14 +1091,14 @@ with col_e2:
         
         if os.path.exists(sum_path) and os.path.exists(upset_path):
             st.subheader("Our Predictions vs Simple Rankings Predictor")
-            df_sum = pd.read_csv(sum_path)
+            df_sum = _load_cached_csv(sum_path)
             df_sum.columns = ['Tournament', 'Total Matches', 'Our Prediction Accuracy', 'Rankings Predictor Accuracy']
             df_sum['Our Prediction Accuracy'] = df_sum['Our Prediction Accuracy'].apply(lambda x: f"{x:.1%}")
             df_sum['Rankings Predictor Accuracy'] = df_sum['Rankings Predictor Accuracy'].apply(lambda x: f"{x:.1%}")
             st.dataframe(df_sum, use_container_width=True, hide_index=True)
             
             st.subheader("Giant Killings & Upsets We Called Correctly")
-            df_ups = pd.read_csv(upset_path)
+            df_ups = _load_cached_csv(upset_path)
             df_ups.columns = ['Year', 'Matchup', 'Winner', 'FIFA Ranks Comparison', 'Our Predicted Win Probability']
             st.dataframe(df_ups, use_container_width=True, hide_index=True)
         else:
