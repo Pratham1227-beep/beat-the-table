@@ -16,7 +16,6 @@
 | **Formation Advisor** | Try any formation and see updated win % and tactical notes |
 | **Tournament Projection** | Monte Carlo simulation (1,000 runs) of bracket advancement probability per stage |
 | **Historical Database** | Full 2018–2026 World Cup prediction backtest browser |
-| **PDF Report Export** | One-click download of the complete tactical analysis with embedded pitch images |
 | **Streamlit Caching** | Model, squad data, and simulations are cached — near-instant repeat queries |
 
 ---
